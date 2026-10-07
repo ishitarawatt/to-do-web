@@ -1,39 +1,44 @@
-# to-do-web
 # 📝 Advanced To-Do List Web App
 
-## 📌 Project Overview
-This project is a **fully functional To-Do List Web Application** developed as part of the **OutriX Web Development Internship**.
+> A clean, fast task manager that remembers your tasks between visits.
 
-It demonstrates CRUD operations, data persistence, and real-world JavaScript logic.
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
----
+Built as part of the **OutriX Web Development Internship**.
 
-## 🎯 Objectives
-- Create a task management application
-- Implement add, edit, delete, and complete features
-- Store data using LocalStorage
-- Build a clean and intuitive UI
+## Features
 
----
+- ➕ Add, ✏️ edit, 🗑️ delete and ✅ complete tasks
+- 🔍 Filter by **All / Completed / Pending**
+- 💾 Tasks persist via **LocalStorage**
+- 📱 Responsive layout
 
-## 🛠️ Tech Stack
-- HTML5  
-- CSS3  
-- JavaScript  
+## Objectives
 
----
+- Build a task-management app with full CRUD
+- Persist data in the browser
+- Design a clean, intuitive UI
 
-## ✨ Key Features
-- Add new tasks
-- Edit existing tasks
-- Delete tasks
-- Mark tasks as completed
-- Filter tasks (All / Completed / Pending)
-- Persistent data using LocalStorage
-- Responsive design
+## Run
 
----
+```bash
+git clone https://github.com/ishitarawatt/to-do-web.git
+cd to-do-web
+```
 
-<img width="2541" height="1225" alt="Screenshot 2026-01-02 233434" src="https://github.com/user-attachments/assets/1ee8e34b-8e96-4570-8bc2-07f055f57e78" />
-<img width="2553" height="1240" alt="Screenshot 2026-01-02 233355" src="https://github.com/user-attachments/assets/df28c7e7-12a4-4f20-9bb9-9eb48529bc52" />
+Open `index.html` in your browser. No build step needed.
 
+## Structure
+
+```
+to-do-web/
+├── index.html
+├── style.css
+└── script.js
+```
+
+## What I learned
+
+DOM manipulation · LocalStorage · event handling · state-driven UI · filtering logic
